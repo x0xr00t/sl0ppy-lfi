@@ -2,7 +2,7 @@
 A small lfi enum tool, i upgraded the original source a bits here and there.  
 
 # Added searches
-* /proc/looginuid
+* /proc/loginuid
 * /proc/maps
 * /proc/patch-state
 * /proc/numa_maps
