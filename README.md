@@ -18,7 +18,9 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * /proc/meminfo
 * /proc/self/
 * /proc/self/stat
+* /proc/self/environ
 * /proc/self/maps/
+* /proc/self/fd/
 * and more
 # Usage 
 
