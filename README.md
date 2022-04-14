@@ -1,6 +1,23 @@
 # sl0ppy-lfi
-small lfi enum tool 
+A small lfi enum tool, i upgraded the original source a bits here and there.  
 
+# Added searches
+* /proc/patch-state
+* /proc/numa_maps
+* /proc/stack
+* /proc/personality
+* /proc/pagemap
+* /proc/cgroup
+* /proc/sched
+* /proc/mounts
+* /proc/status
+* /proc/environ
+* /proc/shedstat
+* /proc/meminfo
+* /proc/self/
+* /proc/self/stat
+* /proc/self/maps/
+* and more
 # Usage 
 
 # Enum all
