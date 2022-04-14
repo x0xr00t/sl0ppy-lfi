@@ -25,16 +25,16 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 # Usage 
 
 # Enum all
-* `./sl0ppy-lfi http://10.10.11.154/index.php?page=` 
-* `./sl0ppy-lfi http://10.10.11.154/index.php?page=../../../../../../../../../../` 
+* `./sl0ppy-lfi http://server.vulnerable.com/index.php?page=` 
+* `./sl0ppy-lfi http://server.vulnerable.com/index.php?page=../../../../../../../../../../` 
 
 
 # enum specific stuff like only libc
-* `./sl0ppy-lfi http://10.10.11.154/index.php?page= | grep "libc"`
-* `./sl0ppy-lfi http://10.10.11.154/index.php?page=../../../../../../../../../../ | grep "libc"` 
+* `./sl0ppy-lfi http://server.vulnerable.com/index.php?page= | grep "libc"`
+* `./sl0ppy-lfi http://server.vulnerable.com/index.php?page=../../../../../../../../../../ | grep "libc"` 
 
 # Output Enum 
-* `./sl0ppy-lfi http://10.10.11.154/index.php?page= > output && cat output`  
+* `./sl0ppy-lfi http://server.vulnerable.com/index.php?page= > output && cat output`  
 
 # sl0ppy-ProcessInfo
 `./sl0ppy-ProcessInfo http://server.vulnerable.com/download.php?file=` 
