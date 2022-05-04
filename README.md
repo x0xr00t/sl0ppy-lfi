@@ -2,26 +2,19 @@
 A small lfi enum tool, i upgraded the original source a bits here and there.  
 
 # Added searches
-* /proc/loginuid
-* /proc/maps
-* /proc/patch-state
-* /proc/numa_maps
-* /proc/stack
-* /proc/personality
-* /proc/pagemap
-* /proc/cgroup
-* /proc/sched
-* /proc/mounts
-* /proc/status
-* /proc/environ
-* /proc/shedstat
-* /proc/meminfo
-* /proc/self/
-* /proc/self/stat
-* /proc/self/environ
-* /proc/self/maps/
-* /proc/self/fd/
-* and more
+* linux local files 
+* linux log files 
+* Linux proc files
+* linux apache files
+* linux .ssh files
+* linux other files 
+
+* windows local files
+* windows log files
+* windows config files
+* windows other stuff    
+* and alot more 
+* 
 # Usage 
 
 # Enum all
