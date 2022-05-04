@@ -1,5 +1,8 @@
 #!/bin/bash
 #
+# Sl0ppy - lfi
+# Team sl0ppyr00t
+# x0xr00t
     
 RED_TEXT="\033[31m"
 BLUE_TEXT="\033[34m"
