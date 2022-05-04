@@ -24,7 +24,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * Choice 1 for windows based lfi file checks
 * choise 2 for linux based lfi file checks
 * cboise 3 for linux windows lfi file checks 
-* Enter the url with lfi hit  
+* Enter the lfi url whn it ask for it like this.. http://server.vulnerable.com/index.php?page=` 
 
 # Usage sl0ppy-lfi 
 
