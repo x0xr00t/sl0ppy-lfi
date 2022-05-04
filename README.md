@@ -14,7 +14,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * windows config files
 * windows other stuff    
 * and alot more 
-* 
+
 # Usage 
 
 # Enum all
