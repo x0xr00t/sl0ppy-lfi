@@ -15,6 +15,8 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * windows other stuff    
 * and alot more 
 
+# !Added php://filther encodiing! 
+
 # install
 * make all files executable with this command
 * chmod +x install && ./install
@@ -34,7 +36,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * Choise 2 for linux based lfi file checks
 * Cboise 3 for linux & windows lfi file checks
 * choise 4 for PHP://filther encoding.. 
-* Enter the lfi url whn it ask for it like this.. http://server.vulnerable.com/index.php?page=` 
+* Enter the lfi url when it ask for it like this.. http://server.vulnerable.com/index.php?page=` 
 * Else as http://server.vulnerable.com/index.php?page=../../../../../../../../../../
 * Or any other lfi param or pages... 
 
@@ -57,7 +59,24 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 # sl0ppy-ProcessInfo
 `./sl0ppy-ProcessInfo http://server.vulnerable.com/download.php?file=` 
 
-# !Added php://filther encodiing! 
+
+# usage Windows-lfi 
+* ./sl0ppy-lfi-fw
+* option 1
+* enter url when it ask for it like this http://server.vulnerable.com/index.php?page=`
+* or any other page, or lfi param
+
+# usage Windows-lfi 
+* ./sl0ppy-lfi-fw
+* option 2
+* enter url when it ask for it like this http://server.vulnerable.com/index.php?page=`
+* or any other page, or lfi param
+
+# usage Windows-lfi 
+* ./sl0ppy-lfi-fw
+* option 3
+* enter url when it ask for it like this http://server.vulnerable.com/index.php?page=`
+* or any other page, or lfi param
 
 # Usage php://Filther-encoding 
 * ./sl0ppy-lfi-fw 
