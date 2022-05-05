@@ -1,0 +1,11 @@
+#!/bin/bash
+
+read -p "Please enter the systems username: " user 
+
+cd /home/$user/sl0ppy-lfi
+chmod +x sl0ppy-windows-lfi
+chmod +x sl0ppy-lin-win-lfi
+chmod +x sl0ppy-linux-lfi
+chmod +x sl0ppy-lfi-fw
+chmod +x sl0ppy-filter-enc-lfi
+exit 
