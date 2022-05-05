@@ -15,7 +15,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * windows other stuff    
 * and alot more 
 
-# !Added php://filther encodiing! 
+# !Added php://filther encoding! 
 
 # install
 * make all files executable with this command
