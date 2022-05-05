@@ -17,7 +17,7 @@ version="v0.1"
 aka="~x0xr00t~"
 user="x0"
 show_menu(){
-    NORMAL="\033[m" 
+    NORMAL="\033[m"
     MENU="\033[32m" #green
     NUMBER="\033[34m" #blue
     FGRED="\033[41m"
@@ -25,8 +25,8 @@ show_menu(){
     BLUE_TEXT="\033[34m"
     GREEN_TEXT="\033[32m"
     YELLOW_TEXT="\033[33m"
-    MAGNETA_TEXT="\033[35m" 
-    CYAN_TEXT="\033[36m"  
+    MAGNETA_TEXT="\033[35m"
+    CYAN_TEXT="\033[36m"
     BLINK="\e[5m"
     ENTER_LINE="\033[32m"
     echo -e "${ENTER_LINE}${GREEN_TEXT} ${NORMAL}"
@@ -41,11 +41,12 @@ show_menu(){
     echo -e "${MENU}       *${NUMBER} 1)${YELLOW_TEXT} Windows-LFI Checks               *${NORMAL}"
     echo -e "${MENU}       *${NUMBER} 2)${YELLOW_TEXT} Linux-LFI Checks                *${NORMAL}"
     echo -e "${MENU}       *${NUMBER} 3)${YELLOW_TEXT} All-Files-LFI Checks             *${NORMAL}"
+    echo -e "${MENU}       *${NUMBER} 4)${YELLOW_TEXT} PHP://Filther-Enc               *${NORMAL}"
     echo -e "${MENU}       **************************************${NORMAL}"
-    echo -e "${ENTER_LINE} ${RED_TEXT} {!}${BLUE_TEXT} Follow all the instructions${GREEN_TEXT} and you will be good${RED_TEXT}{!}${NOMRAL}"    
+    echo -e "${ENTER_LINE} ${RED_TEXT} {!}${BLUE_TEXT} Follow all the instructions${GREEN_TEXT} and you will be good${RED_TEXT}{!}${NOMRAL}"
     echo -e "${ENTER_LINE} ${RED_TEXT} {v}${BLUE_TEXT} Coded By:${RED_TEXT} $author ||${BLUE_TEXT} $aka ||${RED_TEXT} |${BLUE_TEXT} $website "
     echo -e "${ENTER_LINE} ${RED_TEXT} {v}${BLUE_TEXT} Please enter a menu option and enter or ${RED_TEXT}enter to exit. ${NORMAL}"
-    read opt 
+    read opt
 }
 
 function option_picked() {
@@ -69,13 +70,16 @@ show_menu
       echo -e "${RED_TEXT}/ __| | | | | '_ \| '_ \| | | |_____| | |_| |"
       echo -e "${RED_TEXT}\__ \ | |_| | |_) | |_) | |_| |_____| |  _| |"
       echo -e "${RED_TEXT}|___/_|\___/| .__/| .__/ \__, |     |_|_| |_|"
-      echo -e "${RED_TEXT}            |_|   |_|    |___/               ${NORMAL}" 
+      echo -e "${RED_TEXT}            |_|   |_|    |___/               ${NORMAL}"
+      echo ""
+      echo ""
+      #read -p "Please Enter The Systems Username: " user
       echo ""
       echo ""
       read -p "Please Enter The LFI Url: " url
       echo ""
       echo ""
-      exec /home/$user/sl0ppy-lfi/sl0ppy-windows-lfi $url      
+      exec /home/$user/sl0ppy-lfi/sl0ppy-windows-lfi $url
       show_menu;
       ;;
 
@@ -86,13 +90,16 @@ show_menu
       echo -e "${RED_TEXT}/ __| | | | | '_ \| '_ \| | | |_____| | |_| |"
       echo -e "${RED_TEXT}\__ \ | |_| | |_) | |_) | |_| |_____| |  _| |"
       echo -e "${RED_TEXT}|___/_|\___/| .__/| .__/ \__, |     |_|_| |_|"
-      echo -e "${RED_TEXT}            |_|   |_|    |___/               ${NORMAL}"  
+      echo -e "${RED_TEXT}            |_|   |_|    |___/               ${NORMAL}"
+      echo ""
+      echo ""
+      #read -p "Please Enter The Systems Username: " user
       echo ""
       echo ""
       read -p "Please Enter The LFI Url: " url
       echo ""
       echo ""
-      exec /home/$user/sl0ppy-lfi/sl0ppy-linux-lfi $url      
+      exec /home/$user/sl0ppy-lfi/sl0ppy-linux-lfi $url
       show_menu;
       ;;
 
@@ -103,20 +110,40 @@ show_menu
       echo -e "${RED_TEXT}/ __| | | | | '_ \| '_ \| | | |_____| | |_| |"
       echo -e "${RED_TEXT}\__ \ | |_| | |_) | |_) | |_| |_____| |  _| |"
       echo -e "${RED_TEXT}|___/_|\___/| .__/| .__/ \__, |     |_|_| |_|"
-      echo -e "${RED_TEXT}            |_|   |_|    |___/               ${NORMAL}"  
+      echo -e "${RED_TEXT}            |_|   |_|    |___/               ${NORMAL}"
+      echo ""
+      echo ""
+      #read -p "Please Enter The Systems Username: " user
       echo ""
       echo ""
       read -p "Please Enter The LFI Url: " url
       echo ""
       echo ""
-      exec /home/$user/sl0ppy-lfi/sl0ppy-lin-win-lfi $url 
+      exec /home/$user/sl0ppy-lfi/sl0ppy-lin-win-lfi $url
       show_menu;
       ;;
 
-      #4) clear;
-      #option_picked "Option 4 Picked";
-      #show_menu;
-      #;;
+      4) clear;
+      option_picked "PHP://Filther-Encoding Picked";
+      echo -e "${RED_TEXT}     _  ___                          _  __ _ "
+      echo -e "${RED_TEXT} ___| |/ _ \ _ __  _ __  _   _      | |/ _(_)"
+      echo -e "${RED_TEXT}/ __| | | | | '_ \| '_ \| | | |_____| | |_| |"
+      echo -e "${RED_TEXT}\__ \ | |_| | |_) | |_) | |_| |_____| |  _| |"
+      echo -e "${RED_TEXT}|___/_|\___/| .__/| .__/ \__, |     |_|_| |_|"
+      echo -e "${RED_TEXT}            |_|   |_|    |___/               ${NORMAL}"
+      echo ""
+      echo ""
+      #read -p "Please Enter The Systems Username: " user
+      echo ""
+      echo ""
+      read -p "Please Enter The LFI Url: " url
+      echo ""
+      echo ""
+      exec /home/$user/sl0ppy-lfi/sl0ppy-filther-enc-lfi $url
+
+      show_menu;
+      ;;
+
       #5) clear;
       #option_picked "Option 5 Picked";
       #ub_menu1;
@@ -191,7 +218,7 @@ sub_menu1(){
 }
 
 clear
-show_menu;      
+show_menu;
 
 
 echo -e "${RED_TEXT}     _  ___                          _  __ _ "
@@ -199,5 +226,5 @@ echo -e "${RED_TEXT} ___| |/ _ \ _ __  _ __  _   _      | |/ _(_)"
 echo -e "${RED_TEXT}/ __| | | | | '_ \| '_ \| | | |_____| | |_| |"
 echo -e "${RED_TEXT}\__ \ | |_| | |_) | |_) | |_| |_____| |  _| |"
 echo -e "${RED_TEXT}|___/_|\___/| .__/| .__/ \__, |     |_|_| |_|"
-echo -e "${RED_TEXT}            |_|   |_|    |___/               ${NORMAL}"                                                                                                                                                                                         
-echo -e "${ENTER_LINE} ${GREEN_TEXT}Thnx for using our tool"
+echo -e "${RED_TEXT}            |_|   |_|    |___/               ${NORMAL}"
+
