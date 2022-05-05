@@ -15,7 +15,7 @@ name="sl0ppy-lfi"
 build="20220405"
 version="v0.1"
 aka="~x0xr00t~"
-user="x0"
+#user="x0"
 show_menu(){
     NORMAL="\033[m"
     MENU="\033[32m" #green
@@ -73,7 +73,7 @@ show_menu
       echo -e "${RED_TEXT}            |_|   |_|    |___/               ${NORMAL}"
       echo ""
       echo ""
-      #read -p "Please Enter The Systems Username: " user
+      read -p "Please Enter The Systems Username: " user
       echo ""
       echo ""
       read -p "Please Enter The LFI Url: " url
@@ -93,7 +93,7 @@ show_menu
       echo -e "${RED_TEXT}            |_|   |_|    |___/               ${NORMAL}"
       echo ""
       echo ""
-      #read -p "Please Enter The Systems Username: " user
+      read -p "Please Enter The Systems Username: " user
       echo ""
       echo ""
       read -p "Please Enter The LFI Url: " url
@@ -113,7 +113,7 @@ show_menu
       echo -e "${RED_TEXT}            |_|   |_|    |___/               ${NORMAL}"
       echo ""
       echo ""
-      #read -p "Please Enter The Systems Username: " user
+      read -p "Please Enter The Systems Username: " user
       echo ""
       echo ""
       read -p "Please Enter The LFI Url: " url
@@ -133,7 +133,7 @@ show_menu
       echo -e "${RED_TEXT}            |_|   |_|    |___/               ${NORMAL}"
       echo ""
       echo ""
-      #read -p "Please Enter The Systems Username: " user
+      read -p "Please Enter The Systems Username: " user
       echo ""
       echo ""
       read -p "Please Enter The LFI Url: " url
