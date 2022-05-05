@@ -20,6 +20,11 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * sl0ppy-lfi 
 
 # Usage sl0ppy-lfi-fw (sl0ppy-lfi-framework)
+
+## !change the static set user and unhash the read -p "Please Enter Systems Username: " on all 4 blocks !
+* Or use the read -p submit system user 
+
+# Usage 
 * ./sl0ppy-lfi-fw 
 * Choice 1 for windows based lfi file checks
 * Choise 2 for linux based lfi file checks
