@@ -16,12 +16,12 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * and alot more 
 
 # install
-# make all files executable 
+* make all files executable with this command
 * chmod +x install && ./install
 
 # Usage 
-# sl0ppy-lfi-fw  
-# sl0ppy-lfi 
+* sl0ppy-lfi-fw  
+* sl0ppy-lfi 
 
 # Usage sl0ppy-lfi-fw (sl0ppy-lfi-framework)
 
