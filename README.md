@@ -27,7 +27,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 
 
 ## {!} change the static set user and hash out the read -p "Please Enter Systems Username: " on all 4 blocks {!}
-* Or use the read -p  and ssubmit system user when asked for it 
+* Or use the pre-default implemented(read -p), and submit system user when asked for it.
 
 # Usage sl0ppy-lfi  (old-original-file soon to be fully replaced by sl0ppy-lfi-fw) 
 
