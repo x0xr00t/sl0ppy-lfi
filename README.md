@@ -60,4 +60,6 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 # !Added php://filther encodiing! 
 
 # Usage php://Filther-encoding 
-* ./sl0ppy-lfi-fw option 4 enter url when it ask for it like this http://server.vulnerable.com/index.php
+* ./sl0ppy-lfi-fw 
+* * option 4 
+* enter url when it ask for it like this http://server.vulnerable.com/index.php
