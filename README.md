@@ -15,9 +15,13 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * windows other stuff    
 * and alot more 
 
+# install
+# make all files executable 
+* chmod +x install && ./install
+
 # Usage 
-* sl0ppy-lfi-fw  
-* sl0ppy-lfi 
+# sl0ppy-lfi-fw  
+# sl0ppy-lfi 
 
 # Usage sl0ppy-lfi-fw (sl0ppy-lfi-framework)
 
