@@ -49,7 +49,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 `./sl0ppy-ProcessInfo http://server.vulnerable.com/download.php?file=` 
 
 # Usage sl0ppy-filter-enc-lfi
-./sl0ppy-filter-enc-lfi http://10.10.11.154/index.php > sl0ppy-enc.txt || cat /home/x0/sl0ppy-lfi/sl0ppy-enc.txt
+./sl0ppy-filter-enc-lfi http://server.vulnerable.com/index.php > sl0ppy-enc.txt || cat /home/x0/sl0ppy-lfi/sl0ppy-enc.txt
 
 # Usage sl0ppy-lfi-fw (sl0ppy-lfi-framework)
 
