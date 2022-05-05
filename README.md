@@ -26,7 +26,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * Cboise 3 for linux & windows lfi file checks 
 * Enter the lfi url whn it ask for it like this.. http://server.vulnerable.com/index.php?page=` 
 * Else as http://server.vulnerable.com/index.php?page=../../../../../../../../../../
-* Or any other lfi ur paramaters or pages 
+* Or any other lfi ur param or pages... 
 
 # Usage sl0ppy-lfi 
 
