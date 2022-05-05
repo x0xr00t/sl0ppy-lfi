@@ -23,7 +23,8 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * ./sl0ppy-lfi-fw 
 * Choice 1 for windows based lfi file checks
 * Choise 2 for linux based lfi file checks
-* Cboise 3 for linux & windows lfi file checks 
+* Cboise 3 for linux & windows lfi file checks
+* choise 4 for PHP://filther encoding.. 
 * Enter the lfi url whn it ask for it like this.. http://server.vulnerable.com/index.php?page=` 
 * Else as http://server.vulnerable.com/index.php?page=../../../../../../../../../../
 * Or any other lfi param or pages... 
@@ -46,3 +47,8 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 
 # sl0ppy-ProcessInfo
 `./sl0ppy-ProcessInfo http://server.vulnerable.com/download.php?file=` 
+
+# !Added php://filther encodiing! 
+
+# Usage php://Filther-encoding 
+* ./sl0ppy-lfi-fw option 4 enter url when it ask for it like this http://server.vulnerable.com/index.php
