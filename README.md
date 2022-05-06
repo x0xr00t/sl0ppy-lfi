@@ -49,7 +49,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 `./sl0ppy-ProcessInfo http://server.vulnerable.com/download.php?file=` 
 
 # Usage sl0ppy-filter-enc-lfi
-`./sl0ppy-filter-enc-lfi http://server.vulnerable.com/index.php > sl0ppy-enc.txt || cat /home/x0/sl0ppy-lfi/sl0ppy-enc.txt`
+`./sl0ppy-filter-enc-lfi http://server.vulnerable.com/index.php > sl0ppy-enc.txt || cat /home/{user}/sl0ppy-lfi/sl0ppy-enc.txt`
 
 # Usage sl0ppy-lfi-fw (sl0ppy-lfi-framework)
 
@@ -58,7 +58,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * Choice 1 for windows based lfi file checks
 * Choise 2 for linux based lfi file checks
 * Cboise 3 for linux & windows lfi file checks
-* choise 4 for PHP://filther encoding.. (Temp not working in framework, looking to fix it on short notice)
+* choise 4 for PHP://filther encoding.. (fixed)
 * Enter the lfi url when it ask for it like this.. http://server.vulnerable.com/index.php?page=` 
 * Else as http://server.vulnerable.com/index.php?page=../../../../../../../../../../
 * Or any other lfi param or pages... 
