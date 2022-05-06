@@ -49,12 +49,12 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 `./sl0ppy-ProcessInfo http://server.vulnerable.com/download.php?file=` 
 
 # Usage sl0ppy-filter-enc-lfi
-./sl0ppy-filter-enc-lfi http://server.vulnerable.com/index.php > sl0ppy-enc.txt || cat /home/x0/sl0ppy-lfi/sl0ppy-enc.txt
+`./sl0ppy-filter-enc-lfi http://server.vulnerable.com/index.php > sl0ppy-enc.txt || cat /home/x0/sl0ppy-lfi/sl0ppy-enc.txt`
 
 # Usage sl0ppy-lfi-fw (sl0ppy-lfi-framework)
 
 # Usage 
-* ./sl0ppy-lfi-fw 
+* `./sl0ppy-lfi-fw` 
 * Choice 1 for windows based lfi file checks
 * Choise 2 for linux based lfi file checks
 * Cboise 3 for linux & windows lfi file checks
@@ -66,25 +66,25 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 # Examples sl0ppy-lfi-fw
 
 # usage Windows-lfi 
-* ./sl0ppy-lfi-fw
+* `./sl0ppy-lfi-fw`
 * option 1
-* enter url when it ask for it like this http://server.vulnerable.com/index.php?page=`
+* enter url when it ask for it like this http://server.vulnerable.com/index.php?page=
 * or any other page, or lfi param
 
 # usage Windows-lfi 
-* ./sl0ppy-lfi-fw
+* `./sl0ppy-lfi-fw`
 * option 2
-* enter url when it ask for it like this http://server.vulnerable.com/index.php?page=`
+* enter url when it ask for it like this http://server.vulnerable.com/index.php?page=
 * or any other page, or lfi param
 
 # usage Windows-lfi 
-* ./sl0ppy-lfi-fw
+* `./sl0ppy-lfi-fw`
 * option 3
-* enter url when it ask for it like this http://server.vulnerable.com/index.php?page=`
+* enter url when it ask for it like this http://server.vulnerable.com/index.php?page=
 * or any other page, or lfi param
 
 # !(sum issues in fw option 4 not working atm, working on fixing it...)
-# Usage php://Filther-encoding 
-* ./sl0ppy-lfi-fw 
+# Usage php://Filther-encoding` 
+* `./sl0ppy-lfi-fw`
 * * option 4 
 * enter url when it ask for it like this http://server.vulnerable.com/index.php
