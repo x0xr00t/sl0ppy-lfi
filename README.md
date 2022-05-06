@@ -88,8 +88,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * `./sl0ppy-lfi-fw`
 * * option 4 
 * enter url when it ask for it like this `http://server.vulnerable.com/index.php > sl0ppy-enc.txt || cat /home/$user/sl0ppy-lfi/sl0ppy-enc.txt` 
-* or use grep to finds specific files..
-* `http://server.vulnerable.com/index.php > sl0ppy-enc.txt || cat /home/$user/sl0ppy-lfi/sl0ppy-enc.txt | grep "php"`
-* `http://server.vulnerable.com/index.php > sl0ppy-enc.txt || cat /home/$user/sl0ppy-lfi/sl0ppy-enc.txt | grep "/etc/passwd"`
+
+
 
 
