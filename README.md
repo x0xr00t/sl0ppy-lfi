@@ -83,7 +83,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * enter url when it ask for it like this http://server.vulnerable.com/index.php?page=`
 * or any other page, or lfi param
 
-# !(sum issues in fw, working on fixing it...)
+# !(sum issues in fw option 4 not working atm, working on fixing it...)
 # Usage php://Filther-encoding 
 * ./sl0ppy-lfi-fw 
 * * option 4 
