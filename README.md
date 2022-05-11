@@ -49,7 +49,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 
 # usage lfi-validator 
 * `./sl0ppy-lfi-fw`
-* option 1
+* * option 1
 * Enter Username when asked for it
 * enter url when it ask for it like this `http://server.vulnerable.com`
 * Enter the file param when asked for it. Like this  index.php?page=
@@ -57,21 +57,21 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 
 # usage Windows-lfi 
 * `./sl0ppy-lfi-fw`
-* option 2
+* * option 2
 * Enter Username when asked for it
 * enter url when it ask for it like this `http://server.vulnerable.com/index.php?page=`
 * or any other page, or lfi param
 
 # usage Windows-lfi 
 * `./sl0ppy-lfi-fw`
-* option 3
+* * option 3
 * Enter Username when asked for it
 * enter url when it ask for it like this `http://server.vulnerable.com/index.php?page=`
 * or any other page, or lfi param
 
 # usage Windows-lfi 
 * `./sl0ppy-lfi-fw`
-* option 4
+* * option 4
 * Enter Username when asked for it
 * enter url when it ask for it like this `http://server.vulnerable.com/index.php?page=`
 * or any other page, or lfi param
