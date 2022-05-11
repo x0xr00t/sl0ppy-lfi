@@ -15,7 +15,10 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * windows other stuff    
 * and alot more 
 
-# !Added php://filther encoding! 
+# Changes 
+* v1.3-beta rolled-out
+* Added lfi validator to the framework
+
 
 # install
 * make all files executable with this command
