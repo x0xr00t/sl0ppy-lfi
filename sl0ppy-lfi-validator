@@ -1,4 +1,9 @@
 #!/bin/bash
+#
+# Sl0ppy - filther-enc-lfi
+# Team sl0ppyr00t
+# x0xr00t
+
 red='\e[31m'
 green='\e[32m'
 yellow='\e[33m'
