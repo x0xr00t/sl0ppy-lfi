@@ -62,14 +62,14 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * enter url when it ask for it like this `http://server.vulnerable.com/index.php?page=`
 * or any other page, or lfi param
 
-# usage Windows-lfi 
+# usage linux-lfi 
 * `./sl0ppy-lfi-fw`
 * * option 3
 * Enter Username when asked for it
 * enter url when it ask for it like this `http://server.vulnerable.com/index.php?page=`
 * or any other page, or lfi param
 
-# usage Windows-lfi 
+# usage Windows-linux-lfi 
 * `./sl0ppy-lfi-fw`
 * * option 4
 * Enter Username when asked for it
