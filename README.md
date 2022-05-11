@@ -49,7 +49,7 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * * option 1
 * Enter Username when asked for it
 * enter url when it ask for it like this `http://server.vulnerable.com`
-* Enter the file param when asked for it. Like this  index.php?page=
+* Enter the file param when asked for it. Like this  `index.php?page=`
 * or any other page, or lfi param
 
 # usage Windows-lfi 
