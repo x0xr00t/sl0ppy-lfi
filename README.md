@@ -24,11 +24,8 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 * make all files executable with this command
 * chmod +x install && ./install
 
-# Usage   
-* sl0ppy-lfi-fw 
-
-
-## {!} change the static set user and hash out the read -p "Please Enter Systems Username: " on all 5 blocks {!}
+# config 
+## {!} change the static set user and hash out the read -p "Please Enter Systems Username: " on all 5 blocks in sl0ppy-lfi-fw{!}
 * Or use the pre-default implemented(read -p), and submit system user when asked for it.
 
 
