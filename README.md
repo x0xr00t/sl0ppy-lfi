@@ -84,4 +84,9 @@ A small lfi enum tool, i upgraded the original source a bits here and there.
 
 
 
+Legal Disclaimer:
+
+    I am not responcible for U using it on non authorized systems, make sure u use it on systems u own or are authorized on.
+
+    x0xr00t
 
