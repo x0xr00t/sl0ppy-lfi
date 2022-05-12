@@ -76,7 +76,7 @@ A small lfi framework writen in bash.
 
 # Legal Disclaimer:
 
-    I am not responcible for U using it on non authorized systems, make sure u use it on systems u own or are authorized on.
+    I am not responsible for U using it on non authorized systems, make sure u use it on systems u own or are authorized on.
 
     x0xr00t
 
