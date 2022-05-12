@@ -1,5 +1,5 @@
 # sl0ppy-lfi
-A small lfi enum tool, i upgraded the original source a bits here and there.  
+A small lfi framework writen in bash.   
 
 # Added searches
 * linux local files 
