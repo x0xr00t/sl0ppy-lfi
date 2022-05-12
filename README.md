@@ -1,19 +1,12 @@
 # sl0ppy-lfi
 A small lfi framework writen in bash.   
 
-# Added searches
-* linux local files 
-* linux log files 
-* Linux proc files
-* linux apache files
-* linux .ssh files
-* linux other files 
-
-* windows local files
-* windows log files
-* windows config files
-* windows other stuff    
-* and alot more 
+# includes 
+* lfi validator
+* lfi linux files scanner
+* lfi windows files scanner
+* lfi windows-linux all files scanner
+* lfi filther encode 
 
 # Changes 
 * v1.3-beta rolled-out
